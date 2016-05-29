@@ -5,19 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
-namespace ConsoleApplication4
+namespace RA
 {
-    public class Man
+    public class Cat
     {
+        [ColorProperty(ConsoleColor.Yellow)]
         public string Name { get; set; }
+        [ColorProperty(ConsoleColor.Red)]
+        public string Color { get; set; }
         private int Age;
-        [ColorProperty(ConsoleColor.Blue)]
-        public string Eyes { get; set; }
-        public Man(string name, int age, string color)
+        public Cat(string name, string color, int age)
         {
             Name = name;
+            Color = color;
             Age = age;
-            Eyes = color;
         }
     }
 }

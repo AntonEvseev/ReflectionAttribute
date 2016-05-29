@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
-namespace ConsoleApplication4
+namespace RA
 {
     public class ColorProperty
     {
